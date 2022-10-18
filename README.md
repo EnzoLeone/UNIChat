@@ -8,4 +8,4 @@ O projeto funciona como um chat de comunicação entre os alunos da faculdade, a
 
 Descrição do Projeto:
 
-A ideia é desenvolver um chat em tempo real com fácil acesso e boa navegação, não será necessário criar conta, pois o intuito é realizar a autenticação com própria conta do GitHub. O chat também terá como opções de transferência de arquivos por exemplo PDF, JPEG, WORD, PNG, DOC entre muitos outros.
+A ideia é desenvolver um chat em tempo real com fácil acesso e boa navegação, não será necessário criar conta, pois o intuito é realizar a autenticação com própria conta do GitHub.
