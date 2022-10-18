@@ -1,0 +1,122 @@
+.messageListWrapper {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0px;
+
+    > img {
+        height: 28px;
+        margin: 32px 0;
+    }
+}
+
+.messageList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    // margin-left: 7rem;
+    flex: 1;
+    // padding: 2rem;
+    margin-top: 4rem;
+    // margin-bottom: 4rem;
+    margin-left: 6rem;
+    // margin-right: -25rem;
+    
+    //border: 2px solid #fff;
+    border-radius: 2rem;
+
+    .message {
+        max-width: 440px;
+
+        background-color: #29292e;
+
+        padding: 0.5rem;
+        padding-bottom: 1rem;
+        border-radius: 1rem;
+
+        // padding-right: -20rem;
+
+        .messageContent {
+            padding-top: 0.5rem;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        .messageUser {
+            margin-top: 16px;
+            display: flex;
+            align-items: center;
+            
+            .UserImage {
+                padding: 2px;
+                background: linear-gradient(100deg, #ff008e 0.48%, #ffcd1e 100%);
+                border-radius: 50%;
+                line-height: 0;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    border: 4px solid #121214;
+                }
+            }
+
+            span {
+                font-size: 16px;
+                margin-left: 12px;
+            }
+        }
+    }
+
+    .me {
+        max-width: 440px;
+
+        background-color: #29292e;
+
+        margin-left: 400px;
+        // padding: 0.5rem;
+        // padding-bottom: 1rem;
+        // padding-right: 10rem;
+        // border-radius: 1rem;
+
+
+        padding: 0.5rem;
+        padding-bottom: 1rem;
+        border-radius: 1rem;
+
+        .messageContent {
+            padding-top: 0.5rem;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        .messageUser {
+            margin-top: 16px;
+            display: flex;
+            align-items: center;
+            
+            .UserImage {
+                padding: 2px;
+                background: linear-gradient(100deg, #ff008e 0.48%, #ffcd1e 100%);
+                border-radius: 50%;
+                line-height: 0;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    border: 4px solid #121214;
+                }
+            }
+
+            span {
+                font-size: 16px;
+                margin-left: 12px;
+            }
+        }
+    }
+}

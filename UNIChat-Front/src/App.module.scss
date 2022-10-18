@@ -1,0 +1,24 @@
+.contentWrapper {
+    background: url("./assets/spaceman.jpg");
+    max-width: 1515px;
+    height: 100vh;
+    margin: 0;
+
+
+    display: grid;
+    grid-template-columns: 1fr 453px;
+    column-gap: 120px;
+    position: relative;
+}
+
+.contentSigned::before {
+    content: '';
+    height: 100vh;
+    width: 550px;
+    background: url("./assets/background.svg") no-repeat;
+    background-size: cover;
+    position: fixed;
+    right: -80px;
+    top: 0;
+    border-radius: 10px;
+}

@@ -1,0 +1,17 @@
+.spanLogo {
+    /*background: linear-gradient(100deg, #ff008e 0.48%, #ffcd1e 100%);*/
+    background: url("../../assets/background.svg");
+    background-size: 100px;
+    padding: 10px;
+    width: 200px;
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-weight: 900;
+    font-size: 20px;
+    color: #fff;
+
+    margin-left: 3rem;
+}
