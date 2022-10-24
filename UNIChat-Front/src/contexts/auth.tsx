@@ -35,7 +35,7 @@ export function AuthProvider(props: AuthProvider) {
 
     const [user, setUser] = useState<User | null>(null)
 
-    const signInUrl = `https://github.com/login/oauth/authorize?scope=user&client_id=d4fa48184683f71ebbdc`
+    const signInUrl = `https://github.com/login/oauth/authorize?scope=user&client_id=d5d88f77043f2718a541`
 
     async function signIn(githubCode: string) {
         const response = await api.post<AuthResponse>("authenticate", {
